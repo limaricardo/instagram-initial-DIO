@@ -17,12 +17,18 @@ body {
     justify-content: center;
 }
 
+.page {
+    min-height: 100vh;
+    display: block;
+    margin: auto;
+}
+
 .instagram-wrapper {
     display: flex;
     align-items: center;
     justify-content: start;
-    width: 60%;
-    height: 100vh;
+    width: 85%;
+    height: 90vh;
 }
 
 .instagram-phone{
@@ -127,10 +133,22 @@ body {
     background-image: url('./img/googleplay-button.png');
 }
 
+.other-options {
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+
+
 /* media queries */
 
 @media (max-width: 1024px){
     .instagram-wrapper {
+        width: 90%;
+    }
+    .other-options{
         width: 90%;
     }
 }
